@@ -2,9 +2,9 @@
 class Jolt < Formula
   desc "Coding agent for the terminal that reports whether the work really finished"
   homepage "https://github.com/vendyluo/homebrew-tap"
-  url "https://github.com/vendyluo/homebrew-tap/releases/download/jolt-v0.20.0/jolt-0.20.0-macos-aarch64.tar.gz"
-  version "0.20.0"
-  sha256 "6299f978516c5285e8f6ca6fd083d1bd6821993a6f2cd315a7bec9d1f0930d4f"
+  url "https://github.com/vendyluo/homebrew-tap/releases/download/jolt-v0.21.0/jolt-0.21.0-macos-aarch64.tar.gz"
+  version "0.21.0"
+  sha256 "eff36d16acca9c72fcbff2bd25093ec7384dddff1acd0dc39a1e9ab526fe99e8"
   license :cannot_represent
 
   depends_on arch: :arm64
@@ -17,7 +17,7 @@ class Jolt < Formula
 
   def caveats
     <<~EOS
-      Jolt includes its own JDK 27. Update with `brew upgrade jolt`; `jolt update` and `jolt rollback`
+      Jolt includes its own JDK 28 (early access until its GA). Update with `brew upgrade jolt`; `jolt update` and `jolt rollback`
       are for copies installed from a source checkout.
     EOS
   end
