@@ -2,9 +2,9 @@
 class Jolt < Formula
   desc "Coding agent for the terminal that reports whether the work really finished"
   homepage "https://github.com/vendyluo/homebrew-tap"
-  url "https://github.com/vendyluo/homebrew-tap/releases/download/jolt-v0.21.4/jolt-0.21.4-macos-aarch64.tar.gz"
-  version "0.21.4"
-  sha256 "fc8c9d44b6943f43e1375e68d1b07f7b1baac720f73562df00b7722591a1086a"
+  url "https://github.com/vendyluo/homebrew-tap/releases/download/jolt-v0.21.5/jolt-0.21.5-macos-aarch64.tar.gz"
+  version "0.21.5"
+  sha256 "22909db40c58bcbb9ae56fe1ff16a46c64d917feebe7e7d966e992405edc28ca"
   license :cannot_represent
 
   depends_on arch: :arm64
